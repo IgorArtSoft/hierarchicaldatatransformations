@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml-bindings xmlns="http://www.eclipse.org/eclipselink/xsds/persistence/oxm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema" package-name="dev.igorartsoft.hierarchical.data.xml.jasperreports.model">
+   <java-types>
+      <java-type name="dev.igorartsoft.hierarchical.data.xml.jasperreports.model.Text">
+         <java-attributes>
+            <xml-element java-attribute="Text" cdata="true"/>
+         </java-attributes>
+      </java-type>
+      <java-type name="dev.igorartsoft.hierarchical.data.xml.jasperreports.model.TextFieldExpression">
+         <java-attributes>
+            <xml-element java-attribute="TextFieldExpression" cdata="true"/>
+         </java-attributes>
+      </java-type>
+   </java-types>
+</xml-bindings>
